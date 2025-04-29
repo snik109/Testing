@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-api
+    env: python
+    buildCommand: pip install -r docs/requirements.txt
+    startCommand: python docs/app.py
+    plan: free
