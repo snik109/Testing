@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 API_KEY = "mysecretapikey123"  # Set your API key here
 
-DATA_FILE = './data.json'
+DATA_FILE = 'data.json'
 
 # Load existing data if the file exists
 if os.path.exists(DATA_FILE):
